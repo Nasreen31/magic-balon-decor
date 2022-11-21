@@ -83,3 +83,39 @@ h1, h2, h3 {
   .navbar li ul li a:hover {
     background-color: rgb(214, 121, 175);
   }
+
+  /* hero image and text */
+
+  #hero-outer{
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  #hero-image{
+    height: 700px;
+    width: 100%;
+    background: url(../images/balloons.jpg) center center / cover no-repeat fixed;
+  }
+
+  
+
+  #cover-text{
+    letter-spacing: 4px;
+    color: rgb(184, 70, 172);
+    margin: 0 auto;
+    padding-top: 200px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+  }
+
+  #cover-text h3 {
+    font-size: 100px;
+    font-weight: 600;
+  }
+
+  #cover-text h1 {
+    font-size: 150px;
+    font-weight: 750;
+  }
