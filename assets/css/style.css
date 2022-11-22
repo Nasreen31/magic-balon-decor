@@ -145,8 +145,19 @@ h1, h2, h3 {
 
   #about-image {
     height: 500px;
-    width: 80%;
-    background-color: white;
+    width: 90%;
+    background-color: whitesmoke;
     position: absolute;
-    left: 9%;
+    left: 5%;
+  }
+
+  #about-text {
+    letter-spacing: 4px;
+    background-color: rgba(184, 70, 173, 0.5);
+    color: whitesmoke;
+    margin: 0 auto;
+    padding-top: 100px;
+    text-align: center;
+    width: 90%;
+    left: 5%;
   }
