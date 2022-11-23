@@ -162,10 +162,48 @@ h1, h2, h3 {
     left: 15%;
   }
 
+  #about-us h1 {
+    font-size: 45px;
+  }
+
   /* visit our shop section */
 
   .text-center {
     text-align: center;
   }
 
+  .left-about {
+    float: left;
+    width: 35%;
+    border: 2px solid  rgb(184, 70, 172);
+    color:  rgb(184, 70, 172);
+    margin-left: 2%;
+    padding: 6.7% 0;
+  }
+
+  .right-about {
+    float: right;
+    width: 60%;
+    margin-right: 1%;
+  }
+
+  #open-times{
+    margin: 0 auto;
+  }
+
+  #open-times th {
+    font-family: 'Dancing Script', cursive;
+  }
+
+  #visit-shop h1{
+    font-size: 45px;
+    text-align: center;
+    background-color: rgb(184, 70, 172);
+    color: whitesmoke;
+    margin-bottom: 5px;
+  }
   
+  #visit-shop h3{
+    font-size: 30px;
+  }
+
