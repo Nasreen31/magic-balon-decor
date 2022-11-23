@@ -208,3 +208,10 @@ h1, h2, h3 {
     font-size: 30px;
   }
 
+  .left-about th{
+    font-size: 25px;
+  }
+
+  .left-about td, .left-about p {
+    font-weight: 600;
+  }
