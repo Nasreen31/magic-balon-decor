@@ -108,14 +108,12 @@ h1, h2, h3 {
   }
 
   #hero-image{
-    height: 700px;
+    height:inherit;
     width: 100%;
     background: url(../images/balloons.jpg) center center / cover no-repeat fixed;
   }
-
   
-
-  #cover-text{
+    #cover-text{
     letter-spacing: 4px;
     color: rgb(184, 70, 172);
     margin: 0 auto;
@@ -133,6 +131,8 @@ h1, h2, h3 {
     font-size: 150px;
     font-weight: 750;
   }
+
+   /* about us section */
 
   #about-us{
     height: 700px;
@@ -161,3 +161,11 @@ h1, h2, h3 {
     width: 70%;
     left: 15%;
   }
+
+  /* visit our shop section */
+
+  .text-center {
+    text-align: center;
+  }
+
+  
