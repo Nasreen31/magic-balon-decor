@@ -139,7 +139,7 @@ h1, h2, h3 {
     width: 100%;
     overflow: hidden;
     position: relative;
-    padding: 100px 0;
+    padding: 75px 0;
   }
 
   #about-image {
@@ -168,6 +168,10 @@ h1, h2, h3 {
 
   /* visit our shop section */
 
+  #visit-shop {
+    height: 490px;
+  }
+
   .text-center {
     text-align: center;
   }
@@ -178,7 +182,7 @@ h1, h2, h3 {
     border: 2px solid  rgb(184, 70, 172);
     color:  rgb(184, 70, 172);
     margin-left: 2%;
-    padding: 6.7% 0;
+    padding: 6.3% 0;
   }
 
   .right-about {
@@ -200,8 +204,8 @@ h1, h2, h3 {
     text-align: center;
     background-color: rgb(184, 70, 172);
     color: whitesmoke;
-    padding: 5px 0;
-    margin-bottom: 5px;
+    padding: 10px 0;
+    margin-bottom: 10px;
   }
   
   #visit-shop h3{
@@ -214,4 +218,35 @@ h1, h2, h3 {
 
   .left-about td, .left-about p {
     font-weight: 600;
+  }
+
+  /* Footer */
+
+  footer{
+    height: 70px;
+    background-color: rgb(184, 70, 172);
+    color:whitesmoke;
+  }
+
+  footer li {
+    display: inline;
+  }
+
+  footer > ul {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  #float-left{
+    float: left;
+    margin-left: 5px;
+  }
+
+  #float-right{
+    float: right;
+    margin-right: 5px;
+  }
+
+  footer li i,footer li a {
+    color:whitesmoke;
   }
