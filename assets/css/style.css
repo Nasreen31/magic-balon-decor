@@ -94,7 +94,7 @@ h1, h2, h3 {
   float: right;
   width: 70px;
   height: 100%;
-  margin-right: 10px;
+  margin-right: 5px;
   }
 
   /* hero image and text */
@@ -200,6 +200,7 @@ h1, h2, h3 {
     text-align: center;
     background-color: rgb(184, 70, 172);
     color: whitesmoke;
+    padding: 5px 0;
     margin-bottom: 5px;
   }
   
