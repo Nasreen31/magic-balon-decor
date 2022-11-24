@@ -114,7 +114,7 @@ h1, h2, h3 {
   }
   
     #cover-text{
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     color: rgb(184, 70, 172);
     margin: 0 auto;
     padding-top: 200px;
@@ -151,7 +151,7 @@ h1, h2, h3 {
   }
 
   #about-text {
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     background-color: rgba(184, 70, 173, 0.5);
     color: whitesmoke;
     margin: 0 auto;
@@ -256,4 +256,24 @@ h1, h2, h3 {
 
   footer li i,footer li a {
     color:whitesmoke;
+  }
+
+  /* picture example */
+
+  .picture-example {
+    padding-top: 90px;
+  }
+
+  .picture-example img {
+    width: 49%;
+    height: 700px;
+    margin-left: 0.5%;
+  }
+
+  .picture-example h1 {
+    font-size: 60px;
+    letter-spacing: 3px;
+    text-align: center;
+    color: rgb(184, 70, 172);
+    border: solid 3px rgb(184, 70, 172);
   }
