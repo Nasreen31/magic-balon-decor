@@ -44,9 +44,55 @@
         <br>
         <p>
             With your birthdays we can keep it simple (first picture) or we can do more than that (second picture).
-            We give you options of choosing which type of balloons you want the color of the balloons and which extra
-            decorations you would like. Fill in our form below if you want us to decorate your next birthday!
+            We give you options of choosing the colors of the balloons and which extra decorations you would like.
+            Fill in our form below if you want us to decorate your next birthday!
         </p>
+    </section>
+
+    <section class="form">
+    <fieldset>
+        <legend>Your Details</legend>
+
+        <div>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" required>
+        </div>
+        <div>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" required>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+        </div>
+        <div>
+            <label for="number">Phone number:</label>
+            <input type="number" id="number" required>
+        </div>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Decoration Choices</legend>
+
+            <input type="radio" name="basic/deluxe" value="basic">
+            <label for="basic">Basic (first picture)</label>
+            <input type="radio" name="basic/deluxe" value="deluxe">
+            <label for="deluxe">Deluxe (second picture)</label>
+
+        <div>
+            <label for="color1">Primairy color:</label>
+            <input type="color" id="color1">
+        </div>
+        <div>
+            <label for="color2">Secondairy color:</label>
+            <input type="color" id="color2">
+        </div>
+        <div>
+            <label for="color3">Tertiary color:</label>
+            <input type="color" id="color3">
+        </div>
+    </fieldset>
+
     </section>
 
 

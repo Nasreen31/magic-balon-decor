@@ -277,13 +277,13 @@ h1, h2, h3 {
     letter-spacing: 3px;
     text-align: center;
     color: rgb(184, 70, 172);
-    border: solid 3px rgb(184, 70, 172);
+    border-top: solid 3px rgb(184, 70, 172);
+    border-bottom: solid 3px rgb(184, 70, 172);
   }
 
   /* decoration info */
 
   .decoration-info {
-    text-align: center;
     width: 550px;
     height: 550px;
     background-color:rgb(184, 70, 172);
