@@ -258,6 +258,8 @@ h1, h2, h3 {
     color:whitesmoke;
   }
 
+  /* decoration pages */
+  
   /* picture example */
 
   .picture-example {
@@ -276,4 +278,25 @@ h1, h2, h3 {
     text-align: center;
     color: rgb(184, 70, 172);
     border: solid 3px rgb(184, 70, 172);
+  }
+
+  /* decoration info */
+
+  .decoration-info {
+    text-align: center;
+    width: 550px;
+    height: 550px;
+    background-color:rgb(184, 70, 172);
+    border-radius: 50%;
+    margin: 4% 32%;
+  }
+
+  .decoration-info > p {
+    font-size: 25px;
+    width: 75%;
+    text-align: center;
+    color:whitesmoke;
+    letter-spacing: 3px;
+    margin: 0 auto;
+    padding: 20% 0;
   }
