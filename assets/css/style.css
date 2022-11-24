@@ -166,6 +166,10 @@ h1, h2, h3 {
     font-size: 45px;
   }
 
+  #about-us p {
+    font-size: 25px;
+  }
+
   /* visit our shop section */
 
   #visit-shop {
@@ -224,12 +228,13 @@ h1, h2, h3 {
 
   footer{
     height: 70px;
-    background-color: rgb(184, 70, 172);
+    background-color: rgb(184, 70, 173);
     color:whitesmoke;
   }
 
   footer li {
     display: inline;
+    margin-top: 15px;
   }
 
   footer > ul {
@@ -239,12 +244,14 @@ h1, h2, h3 {
 
   #float-left{
     float: left;
-    margin-left: 5px;
+    margin-left: 15px;
+    font-family: 'Dancing Script', cursive;
   }
 
   #float-right{
     float: right;
-    margin-right: 5px;
+    margin-right: 15px;
+    font-size: 40px;
   }
 
   footer li i,footer li a {
