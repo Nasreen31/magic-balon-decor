@@ -299,3 +299,37 @@ h1, h2, h3 {
     margin: 0 auto;
     padding: 20% 0;
   }
+
+  /* form */
+
+  .form {
+    width: 700px;
+    padding: 25px;
+    border-radius: 5px;
+    margin: 25px auto;
+    background-color: whitesmoke;
+    border: 5px solid rgb(184, 70, 172);
+  }
+
+  input[type=text], input[type=email], input[type=date], input[type=time], input[type=number]{
+    display: block;
+    background-color: rgba(184, 70, 173, 0.7);
+    width: 40%;
+    height: 25px;
+  }
+
+  input[type=submit] {
+    margin-top: 20px;
+    margin-left: 0.75rem;
+    padding: 0.75rem;
+    background-color: rgb(184, 70, 172);
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+  }
+ 
+  input[type=checkbox]{
+    clear:both;
+    display:inline;
+    box-sizing: border-box;
+  }
