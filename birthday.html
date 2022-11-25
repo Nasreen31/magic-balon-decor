@@ -37,13 +37,13 @@
         <h1>Birthday</h1>
         <br>
         <img src="assets/images/basic-bday.jpg" alt="basic example of decoration for a birthday">
-        <img src="assets/images/deluxe-bday.jpg" alt="deluxe example of decoration for a birthday">
+        <img src="assets/images/deluxe-bday.jpg" alt="deluxe example of decoration for a birthday">   
     </section>
 
     <section class="decoration-info">
         <br>
         <p>
-            With your birthdays we can keep it simple (first picture) or we can do more than that (second picture).
+            With your birthdays we can keep it simple (first picture) or we can do a more grand version (second picture).
             We give you options of choosing the colors of the balloons and which extra decorations you would like.
             Fill in our form below if you want us to decorate your next birthday!
         </p>
@@ -74,11 +74,6 @@
     <fieldset>
         <legend>Decoration Choices</legend>
 
-            <input type="radio" name="basic/deluxe" value="basic">
-            <label for="basic">Basic (first picture)</label>
-            <input type="radio" name="basic/deluxe" value="deluxe">
-            <label for="deluxe">Deluxe (second picture)</label>
-
         <div>
             <label for="color1">Primairy color:</label>
             <input type="color" id="color1">
@@ -92,6 +87,37 @@
             <input type="color" id="color3">
         </div>
     </fieldset>
+    <br>
+    <fieldset>
+        <legend>Options</legend>
+        <input type="checkbox" id="flowers">
+        <label for="flowers">Flowers</label>
+        <input type="checkbox" id="number-balloons">
+        <label for="number-balloons">Numeric balloons</label>
+        <input type="checkbox" id="decorative-wall">
+        <label for="decorative-wall">Decorative Wall</label>
+        <input type="checkbox" id="cuddly-toy">
+        <label for="cuddly-toy">Cuddly toy (teddybear)</label>
+        <input type="checkbox" id="pillar">
+        <label for="pillar">Balloon Pillar</label>
+        <input type="checkbox" id="arch">
+        <label for="arch">Balloon arch</label>
+        <input type="checkbox" id="cake">
+        <label for="cake">Birthdaycake</label>
+    </fieldset>
+    <br>
+    <fliedset>
+        <legend>Date and Time</legend>
+        
+        <div>
+            <label for="date">Date:</label>
+            <input type="date" id="date">
+        </div>
+        <div>
+            <label for="time">Time:</label>
+            <input type="time" id="time">
+        </div>
+    </fliedset>
 
     </section>
 

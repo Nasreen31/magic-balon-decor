@@ -262,14 +262,13 @@ h1, h2, h3 {
   
   /* picture example */
 
-  .picture-example {
-    padding-top: 90px;
+  .picture-example{
+   padding-top: 90px;
   }
 
   .picture-example img {
-    width: 49%;
-    height: 700px;
-    margin-left: 0.5%;
+   width: 49%;
+   height: 700px;
   }
 
   .picture-example h1 {
