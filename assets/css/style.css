@@ -313,9 +313,10 @@ h1, h2, h3 {
 
   input[type=text], input[type=email], input[type=date], input[type=time], input[type=number]{
     display: block;
-    background-color: rgba(184, 70, 173, 0.7);
+    background-color: rgba(184, 70, 173, 0.8);
     width: 40%;
     height: 25px;
+    color:whitesmoke;
   }
 
   input[type=submit] {
@@ -328,8 +329,28 @@ h1, h2, h3 {
     border-radius: 5px;
   }
  
-  input[type=checkbox]{
-    clear:both;
-    display:inline;
-    box-sizing: border-box;
+  textarea{
+    max-width: 60%;
+    background-color: rgba(184, 70, 173, 0.8);
+    color: whitesmoke;
+  }
+
+  label {
+    color:rgb(184, 70, 172);
+    font-weight: 500;
+    letter-spacing: 3px;
+  }
+
+  legend{
+    color:rgb(184, 70, 172);
+    font-family: 'Dancing Script', cursive;
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-size: 30px;
+  }
+
+  input [type=checkbox]{
+    vertical-align: middle;
+    position: relative;
+    bottom: 1px;
   }
