@@ -325,7 +325,7 @@ h1, h2, h3 {
     padding: 0.75rem;
     background-color: rgb(184, 70, 172);
     color: whitesmoke;
-    border: none;
+    border: 1px solid whitesmoke;
     border-radius: 5px;
   }
  
@@ -349,8 +349,22 @@ h1, h2, h3 {
     font-size: 30px;
   }
 
-  input [type=checkbox]{
-    vertical-align: middle;
+  input[type=submit]:hover{
+    border:1px solid rgb(184, 70, 172);
+    color:rgb(184, 70, 172);
+    background-color: whitesmoke;
+  }
+
+  .options label {
+    display: block;
+    padding-right: 10px;
+    padding-left: 22px;
+    text-indent: -22px;
     position: relative;
-    bottom: 1px;
+  }
+  .options input {
+    vertical-align: middle;
+  }
+  .options label span{
+    vertical-align: middle;
   }
