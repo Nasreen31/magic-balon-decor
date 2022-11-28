@@ -384,7 +384,7 @@ h1, h2, h3 {
   background: url(../images/pink-balloons.jpg) center center no-repeat;
 }
 
-#filled-background-color {
+.filled-background-color {
   height:inherit;
   background-color: rgba(184, 70, 173, 0.35);
 }
@@ -420,3 +420,21 @@ em {
   padding: 1%;
   font-size: 25px;
 }
+
+/* webshop */
+
+#webshop {
+  height: 651px;
+  width: 100%;
+  background: url(../images/pink-balloons.jpg) center center no-repeat;
+}
+
+#webshop h1 {
+  font-size: 200%;
+  font-family: 'Dancing Script', cursive;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 100px;
+  padding-top: 15%;
+}
+
