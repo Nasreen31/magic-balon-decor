@@ -362,3 +362,16 @@ h1, h2, h3 {
     bottom: 1px;
     margin-right: 10px;
 }
+
+/* wedding page */
+
+#wedding-info {
+  margin: 100px 250px;
+  padding: 50px; 
+  color: rgb(184, 70, 172);
+  border: 5px solid rgb(184, 70, 172);
+  border-radius: 5px;
+  text-align: center;
+  font-size: 200%;
+  letter-spacing: 3px;
+}
