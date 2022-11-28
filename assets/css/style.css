@@ -379,11 +379,44 @@ h1, h2, h3 {
 /* contact.html */
 
 #filled-form {
-  height: 600px;
+  height: 651px;
   width: 100%;
+  background: url(../images/pink-balloons.jpg) center center no-repeat;
+}
+
+#filled-background-color {
+  height:inherit;
+  background-color: rgba(184, 70, 173, 0.35);
 }
 
 #filled-form h2 {
   font-size: 200%;
   font-family: 'Dancing Script', cursive;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 100px;
+  padding-top: 50px;
+}
+
+#filled-form p {
+  color:whitesmoke;
+  text-align: center;
+  padding: 25px 0;
+  font-size: 50px;
+}
+
+em {
+  font-size: 25px;
+}
+
+#filled-form a {
+  color:rgb(184, 70, 172);
+  text-decoration: none;
+  background-color: whitesmoke;
+  border: 1px solid rgb(184, 70, 172);
+  border-radius: 5px;
+  margin-left: 40%;
+  margin-top: 25px;
+  padding: 1%;
+  font-size: 25px;
 }
