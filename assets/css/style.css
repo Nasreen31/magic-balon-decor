@@ -511,3 +511,79 @@ em {
 }
 
 }
+
+@media screen and (max-width: 700px) {
+  
+  /* navbar */
+  
+  .navbar li {
+    width: 100px;
+  }
+
+  #logo {
+    display: none;
+  }
+
+  /* hero image and text */
+
+  #hero-outer{
+    height: 700px;
+  }
+  
+    #cover-text{
+    padding-top: 100px;
+  }
+
+  #cover-text h3 {
+    font-size: 60px;
+  }
+
+  #cover-text h1 {
+    font-size: 100px;
+  }
+
+  /* about us section */
+
+  #about-image {
+    width: 100%;
+    left: 0;
+  }
+
+  #about-text {
+    width: 90%;
+    left: 5%;
+  }
+
+  #about-us h1 {
+    font-size: 40px;
+  }
+
+  #about-us p {
+    font-size: 17px;
+  }
+
+   /* visit shop */
+
+   #visit-shop {
+    height: 950px;
+  }
+
+  .left-about {
+    width: 98%;
+    height: 300px;
+    margin: 1%;
+    margin-bottom: 20px;
+    padding: 50px 0;
+  }
+
+  .right-about {
+    width: 98%;
+    margin-right: 1%;
+    margin-bottom: 20px;
+  }
+
+  #visit-shop h1{
+    margin-bottom: 20px;
+  }
+  
+}
