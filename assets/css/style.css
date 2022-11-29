@@ -304,7 +304,7 @@ h1, h2, h3 {
 
   .form {
     width: 700px;
-    padding: 25px;
+    padding: 5%;
     border-radius: 5px;
     margin: 25px auto;
     background-color: whitesmoke;
@@ -390,7 +390,6 @@ h1, h2, h3 {
 }
 
 #filled-form h2 {
-  font-size: 200%;
   font-family: 'Dancing Script', cursive;
   color: whitesmoke;
   text-align: center;
@@ -430,7 +429,6 @@ em {
 }
 
 #webshop h1 {
-  font-size: 200%;
   font-family: 'Dancing Script', cursive;
   color: whitesmoke;
   text-align: center;
@@ -455,10 +453,61 @@ em {
   /* about us */
 
   #about-text {
-    padding-top: 35px;
-    margin-top: 60px;
+    padding-top: 30px;
+    margin-top: 50px;
     width: 80%;
     left: 10%;
   }
+
+   /* decoration pages */
+ 
+   .picture-example img {
+    height: 600px;
+   }
+
+   .decoration-info {
+    margin: 3% 15%;
+  }
+
+  input[type=text], input[type=email], input[type=date], input[type=time], input[type=number]{
+    width: 50%;
+  }
+
+  textarea{
+    max-width: 80%;
+  }
+ 
+  /* contact.html */
+
+#filled-form {
+  height: 1110px;
+}
+
+#filled-form h2 {
+  font-size: 80px;
+  padding-top: 100px;
+}
+
+#filled-form p {
+  font-size: 40px;
+  padding:40px 0;
+}
+
+#filled-form a {
+  margin-left: 33%;
+  margin-top: 75px;
+  padding: 1%;
+}
+
+/* webshop */
+
+#webshop {
+  height: 1110px;
+}
+
+#webshop h1 {
+  font-size: 80px;
+  padding-top: 25%;
+}
 
 }
