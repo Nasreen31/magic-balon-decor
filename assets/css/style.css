@@ -100,7 +100,7 @@ h1, h2, h3 {
   /* hero image and text */
 
   #hero-outer{
-    height: 700px;
+    height: 850px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -186,7 +186,7 @@ h1, h2, h3 {
     border: 2px solid  rgb(184, 70, 172);
     color:  rgb(184, 70, 172);
     margin-left: 2%;
-    padding: 6.3% 0;
+    padding: 95px 0;
   }
 
   .right-about {
@@ -438,3 +438,27 @@ em {
   padding-top: 15%;
 }
 
+/* for medium screen sizes from 950px wide and down */
+
+@media screen and (max-width:950px){
+  
+  /* hero image and text */
+
+  #cover-text h3 {
+    font-size: 80px;
+  }
+
+  #cover-text h1 {
+    font-size: 120px;
+  }
+
+  /* about us */
+
+  #about-text {
+    padding-top: 35px;
+    margin-top: 60px;
+    width: 80%;
+    left: 10%;
+  }
+
+}
