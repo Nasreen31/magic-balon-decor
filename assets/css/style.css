@@ -476,6 +476,12 @@ em {
   textarea{
     max-width: 80%;
   }
+
+  /* wedding page */
+
+#wedding-info {
+  margin: 100px;
+}
  
   /* contact.html */
 
@@ -585,5 +591,105 @@ em {
   #visit-shop h1{
     margin-bottom: 20px;
   }
+
+  /* footer */
+
+  #float-left{
+   display: none;
+  }
+
+  #phone-number{
+    float: left;
+    margin-left: 15px
+  }
+
+  /* decoration pages */
   
+  /* picture example */
+ 
+   .picture-example img {
+    width: 100%;
+    height: 500px;
+   }
+
+   /* decoration info */
+
+  .decoration-info {
+    width: 600px;
+    height: 600px;
+    background-color:rgb(184, 70, 172);
+    border-radius: 50%;
+    margin: 3% 32%;
+  }
+
+  .decoration-info > p {
+    font-size: 25px;
+    width: 75%;
+    text-align: center;
+    color:whitesmoke;
+    letter-spacing: 3px;
+    margin: 0 auto;
+    padding: 21% 0;
+  }
+
+  /* decoration info */
+
+  .decoration-info {
+    width: 350px;
+    height: 350px;
+    margin: 1% 5%;
+  }
+
+  .decoration-info > p {
+    font-size: 15px;
+    width: 70%;
+    letter-spacing: 2px;
+    padding: 10% 0;
+  }
+
+  /* form */
+
+  .form {
+    width: 325px;
+    padding: 5%;
+    margin: 2%;
+  }
+
+  input[type=text], input[type=email], input[type=date], input[type=time], input[type=number]{
+    width: 70%;
+  }
+
+  input[type=submit] {
+    margin-left: 0.5rem;
+  }
+ 
+  textarea{
+    max-width: 80%;
+  }
+
+  /* contact.html */
+
+  #filled-form a {
+    margin-left: 10%;
+  }
+
+  /* webshop */
+
+#webshop h1 {
+  font-size: 80px;
+  padding: 40% 2%;
+  }
+
+  #webshop {
+    height: 830px;
+  }
+
+  /* wedding page */
+
+#wedding-info {
+  margin: 50px;
+  padding: 25px; 
+  font-size: 20px;
+  }
+
 }
