@@ -35,3 +35,30 @@ Magic Balon Decor is a company that mainly decorates for all kinds of occasions,
 </ul>
 
 <img src="assets/images/about-us.png">
+
+<ul>
+<li><h3>The visit our shop section</h3></li>
+    <ul>
+    <li> On the left side of this section you can find the open times and the address of the company</li>
+    <li> On the right side of this section there is a google maps map with the location of the shop with an option to plan a route to the location
+    </li>
+    </ul>
+</ul>
+
+<img src="assets/images/visit-ourshop.png">
+
+<ul>
+<li><h3>The Birthday, Engangment, Gender Reveal and Grand Opening pages</h3></li>
+    <ul>
+    <li>All the pages have the same lay-out and structure only the content is different</li>
+    <ul>
+    <li><h3>Picture example section</h3></li>
+    <li>This section shows the name of the page your on and 2 pictures of examples with regards to the page the user is on.</li>
+    <li>The first picture doesn't have many options and is a more basic version and the second picture has more options. This is also that the user can see a difference and what they would like more</li>
+    </ul>
+    <img src="assets/images/picture-examples.png">
+    <ul>
+    <li><h3>Decoration info section</h3></li>
+    <li>This section tells about the pictures above and gives the user some more information</li>
+    </ul>
+
