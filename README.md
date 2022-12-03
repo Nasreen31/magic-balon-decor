@@ -51,14 +51,40 @@ Magic Balon Decor is a company that mainly decorates for all kinds of occasions,
 <li><h3>The Birthday, Engangment, Gender Reveal and Grand Opening pages</h3></li>
     <ul>
     <li>All the pages have the same lay-out and structure only the content is different</li>
-    <ul>
+</ul>
+<ul>
     <li><h3>Picture example section</h3></li>
+    <ul>
     <li>This section shows the name of the page your on and 2 pictures of examples with regards to the page the user is on.</li>
     <li>The first picture doesn't have many options and is a more basic version and the second picture has more options. This is also that the user can see a difference and what they would like more</li>
     </ul>
+</ul>
     <img src="assets/images/picture-examples.png">
-    <ul>
+
+<ul>
     <li><h3>Decoration info section</h3></li>
-    <li>This section tells about the pictures above and gives the user some more information</li>
+    <ul><li>This section tells about the pictures above and gives the user some more information</li>
     </ul>
+</ul>
+    <img src="assets/images/Decoration-info.png">
+<ul>
+    <li><h3>Form</h3></li>
+    <ul>
+    <li>The form has a your details section where the user needs to fill in their first and last name, email and phone number. these are required</li>
+    <li>The decoration and options section lets the user choose 3 colors they want and extra options thru checkboxen it also has a textarea if the user want something specific</li>
+    <li>Lastly the form has a date and time the user needs to fill out when they want the decoration. these are also required</li>
+    </ul>
+</ul>
+<img src="assets/images/form.png">
+</ul>
+
+<ul>
+<li><h3>Wedding page</h3></li>
+    <ul>
+    <li>Just like the other pages in the decoration section This section shows the name of the page your on and 2 pictures of examples with regards to the page the user is on.</li>
+    <li>It also gives some information that the user should call the company because with weddings they want to make it as specifik as possible</li>
+    </ul>
+
+</ul>
+
 
