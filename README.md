@@ -84,7 +84,26 @@ Magic Balon Decor is a company that mainly decorates for all kinds of occasions,
     <li>Just like the other pages in the decoration section This section shows the name of the page your on and 2 pictures of examples with regards to the page the user is on.</li>
     <li>It also gives some information that the user should call the company because with weddings they want to make it as specifik as possible</li>
     </ul>
-
 </ul>
 
+<img src="assets/images/Wedding-decoinfo.png">
 
+<ul>
+<li><h3>Webshop page</h3></li>
+    <ul>
+    <li> The webshop page for now just says there will be a webshop in the future. The company wants and needs a webshop so i already put it in the navbar</li>
+    </ul>
+</ul>
+
+<img src="assets/images/webshop.png">
+
+<ul>
+<li><h3>contact.html file</h3></li>
+    <ul>
+    <li>When the user fills in the form they are sent to this page. Because of the lack of javascript this was the selution to make it look like the users form is send</li>
+    <li>It informs the user that this is just for show and if they want they should contact the company thru instagram (link in the footer). The user can go back to the homepage thru the button.
+    </li>
+    </ul>
+</ul>
+
+<img src="assets/images/contact.png">
