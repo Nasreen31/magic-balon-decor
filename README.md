@@ -120,3 +120,13 @@ Magic Balon Decor is a company that mainly decorates for all kinds of occasions,
 
 <h1>Testing</h1>
 
+<h2>Lighthouse testing</h2>
+
+index page
+<img src="assets/images/index-lighthouse.png">
+decoration pages
+<img src="assets/images/decoration-lighthouse.png">
+webshop page
+<img src="assets/images/webshop-lighthouse.png">
+contact page
+<img src="assets/images/contact-lighthouse.png">
