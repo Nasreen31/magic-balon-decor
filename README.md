@@ -130,3 +130,23 @@ webshop page
 <img src="assets/images/webshop-lighthouse.png">
 contact page
 <img src="assets/images/contact-lighthouse.png">
+
+<br>
+
+<h2>Validator testing</h2>
+
+<!--  <ul>
+<li>HTML</li>
+<ul><li>No errors were found when passing through the official <a href="https://jigsaw.w3.org/css-validator/" target="_blank">W3C validator</a></li>
+</ul>
+</ul> -->
+
+<ul>
+<li>CSS</li>
+<ul><li>No errors were found when passing through the official <a href="https://jigsaw.w3.org/css-validator/" target="_blank">(Jigsaw) validator</a></li>
+</ul>
+</ul>
+
+<h2>Unfixed bugs</h2>
+
+In the hosted website the logo of the company on the navbar is not visible but when serving it (python3 -m http.server) the logo is visible.
