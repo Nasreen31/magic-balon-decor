@@ -148,7 +148,7 @@ Website was also opened on the following devices and no responsive issues were s
 
 <ul>
 <li>Iphone 12</li>
-<li></li>
+<li>Ipad air</li>
 </ul>
 
 <h2>Lighthouse testing</h2>
@@ -177,6 +177,22 @@ contact page
 <ul><li>No errors were found when passing through the official <a href="https://jigsaw.w3.org/css-validator/" target="_blank">(Jigsaw) validator</a></li>
 </ul>
 </ul>
+
+<h2>Functional testing</h2>
+
+<h3>Navigation links</h3>
+<table>
+<tr><th>Navigation links</th><th>Page to load</th></tr>
+<tr><td>Home</td><td>index.html</td></tr>
+<tr><td>Birthday</td><td>birthday.html</td></tr>
+<tr><td>Engagment</td><td>engagment.html</td></tr>
+<tr><td>Gender reveal</td><td>gender-reveal.html</td>
+</tr>
+<tr><td>Grand opening</td><td>grand-opening.html</td>
+</tr>
+<tr><td>Wedding</td><td>wedding.html</td></tr>
+<tr><td>Webshop</td><td>webshop.html</td></tr>
+</table>
 
 <h2>Unfixed bugs</h2>
 
