@@ -120,6 +120,37 @@ Magic Balon Decor is a company that mainly decorates for all kinds of occasions,
 
 <h1>Testing</h1>
 
+<h2>Responsiveness</h2>
+
+All pages were tested to ensure responsiveness on screen sizes from 320px and upwards.
+
+Steps to test:
+
+<ol>
+<li>Open browser and navigate to <a href="https://huremovic95.github.io/magic-balon-decor/index.html" target="_blank">magic balon decor</a></li>
+<li>Open the developer tools (right click and inspect)
+</li>
+<li>Set to responsive and decrease width to 320px</li>
+<li>Set the zoom to 50%</li>
+<li>Click and drag the responsive window to maximum width
+</li>
+</ol>
+
+<br>
+
+Expected:
+
+Website is responsive on all screen sizes and no images are pixelated or stretched. No horizontal scroll is present. No elements overlap.
+
+Actual: website behaves as expected except for the decoration-info section in the decoration files. It feels out of place some of the time but on phone, tablet and desktop screens its fine.
+
+Website was also opened on the following devices and no responsive issues were seen:
+
+<ul>
+<li>Iphone 12</li>
+<li></li>
+</ul>
+
 <h2>Lighthouse testing</h2>
 
 index page

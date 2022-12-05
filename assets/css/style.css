@@ -441,7 +441,7 @@ em {
   padding-top: 15%;
 }
 
-/* for medium screen sizes from 950px wide and down */
+/* for medium screen sizes from 1000px wide and down */
 
 @media screen and (max-width:1000px){
   
@@ -480,6 +480,10 @@ em {
 
   textarea{
     max-width: 80%;
+  }
+
+  .form {
+    width: 80%;
   }
 
   /* wedding page */
@@ -655,8 +659,8 @@ em {
   /* form */
 
   .form {
-    width: 325px;
-    padding: 5%;
+    width: 80%;
+    padding: 7%;
     margin: 2%;
   }
 
