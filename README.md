@@ -194,6 +194,37 @@ contact page
 <tr><td>Webshop</td><td>webshop.html</td></tr>
 </table>
 
+<h3>Form testing</h3>
+
+The form on all pages is almost the same so testing the form on one page is sufficient.
+
+The form on the birthday page was tested to ensure it functioned as expected when correct data was input and when incorrect data was input. The following test scenarios were covered:
+
+<em>Correct inputs</em>
+
+steps to test:
+
+<ol><li>Navigate to <a href="https://huremovic95.github.io/magic-balon-decor/birthday.html">Magic Balon Decor - Birthday page</a></li>
+<li>Scroll down to the form and input the following data:</li><ul>
+<li>First Name: Obi</li>
+<li>Last Name: Kenobi</li>
+<li>Email: obi-one@jedi.com</li>
+<li>Number: 0612345687</li>
+<li>Date: 07-12-2022</li>
+<li>Time: 21:00</li>
+</ul>
+<li>Click Make Appointment</li>
+<li>User should be redirected to contact.html confirmation page</li>
+</ol>
+
+Expected:
+
+Form submits with no warnings or errors and user is redirected to contact.html page.
+
+Actual:
+
+Website behaved as expected with no errors or warnings and redirected to contact.html.
+
 <h2>Unfixed bugs</h2>
 
 In the hosted website the logo of the company on the navbar is not visible but when serving it (python3 -m http.server) the logo is visible.
