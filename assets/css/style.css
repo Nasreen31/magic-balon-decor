@@ -54,7 +54,7 @@ h1, h2, h3 {
   }
   
   .navbar li:hover, a:hover {
-    background-color: rgb(106, 30, 98);
+    background-color: rgb(182, 67, 134);
   }
   
   .navbar li ul {
@@ -81,11 +81,11 @@ h1, h2, h3 {
   }
   
   .navbar li ul li a:hover {
-    background-color: rgb(182, 67, 134);;
+    background-color: rgb(182, 67, 134);
   }
 
   .active {
-    background-color: rgb(182, 67, 134);;
+    background-color: rgb(182, 67, 134);
   }
 
   /* logo */
