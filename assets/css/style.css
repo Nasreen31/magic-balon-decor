@@ -24,7 +24,7 @@ h1, h2, h3 {
     margin: 0;
     z-index: 99;
     position: fixed;
-    background-color: rgb(184, 70, 172);
+    background-color: rgb(106, 30, 98);
   }
   
   .navbar {
@@ -42,7 +42,7 @@ h1, h2, h3 {
     list-style: none;
     padding: 0;
     margin: 0;
-    background-color: rgb(184, 70, 172);
+    background-color: rgb(106, 30, 98);
   }
   
   .navbar a {
@@ -54,7 +54,7 @@ h1, h2, h3 {
   }
   
   .navbar li:hover, a:hover {
-    background-color: rgb(219, 130, 182);
+    background-color: rgb(106, 30, 98);
   }
   
   .navbar li ul {
@@ -70,7 +70,7 @@ h1, h2, h3 {
   }
   
   .navbar li ul li {
-    background-color: rgb(184, 70, 172);
+    background-color: rgb(106, 30, 98);
   }
   
   .navbar li ul li a {
@@ -81,11 +81,11 @@ h1, h2, h3 {
   }
   
   .navbar li ul li a:hover {
-    background-color: rgb(219, 130, 182);
+    background-color: rgb(182, 67, 134);;
   }
 
   .active {
-    background-color: rgb(219, 130, 182);
+    background-color: rgb(182, 67, 134);;
   }
 
   /* logo */
@@ -115,7 +115,7 @@ h1, h2, h3 {
   
     #cover-text{
     letter-spacing: 3px;
-    color: rgb(184, 70, 172);
+    color: rgb(106, 30, 98);
     margin: 0 auto;
     padding-top: 200px;
     text-align: center;
@@ -152,7 +152,7 @@ h1, h2, h3 {
 
   #about-text {
     letter-spacing: 3px;
-    background-color: rgba(184, 70, 173, 0.5);
+    background-color: rgb(106, 30, 98, 0.5);
     color: whitesmoke;
     margin: 0 auto;
     padding-top: 50px;
@@ -183,8 +183,8 @@ h1, h2, h3 {
   .left-about {
     float: left;
     width: 35%;
-    border: 2px solid  rgb(184, 70, 172);
-    color:  rgb(184, 70, 172);
+    border: 2px solid  rgb(106, 30, 98);
+    color:  rgb(106, 30, 98);
     margin-left: 2%;
     padding: 95px 0;
   }
@@ -206,7 +206,7 @@ h1, h2, h3 {
   #visit-shop h1{
     font-size: 45px;
     text-align: center;
-    background-color: rgb(184, 70, 172);
+    background-color: rgb(106, 30, 98);
     color: whitesmoke;
     padding: 10px 0;
     margin-bottom: 10px;
@@ -233,7 +233,7 @@ h1, h2, h3 {
 
   footer{
     height: 70px;
-    background-color: rgb(184, 70, 173);
+    background-color: rgb(106, 30, 98);
     color:whitesmoke;
   }
 
@@ -274,7 +274,7 @@ h1, h2, h3 {
   }
 
   .picture-example img {
-   width: 49%;
+   width: 49.5%;
    height: auto;
   }
 
@@ -282,9 +282,10 @@ h1, h2, h3 {
     font-size: 60px;
     letter-spacing: 3px;
     text-align: center;
-    color: rgb(184, 70, 172);
-    border-top: solid 3px rgb(184, 70, 172);
-    border-bottom: solid 3px rgb(184, 70, 172);
+    color: rgb(106, 30, 98);
+    border-top: solid 3px rgb(106, 30, 98);
+    border-bottom: solid 3px rgb(106, 30, 98);
+    width: 100%;
   }
 
   /* decoration info */
@@ -292,9 +293,10 @@ h1, h2, h3 {
   .decoration-info {
     width: 600px;
     height: 600px;
-    background-color:rgb(184, 70, 172);
+    background-color:rgb(106, 30, 98);
     border-radius: 50%;
     margin: auto;
+    margin-top: 20px;
   }
 
   .decoration-info > p {
@@ -304,7 +306,7 @@ h1, h2, h3 {
     color:whitesmoke;
     letter-spacing: 3px;
     margin: auto;
-    padding-top: 60px;
+    padding-top: 110px;
   }
 
   /* form */
@@ -315,12 +317,12 @@ h1, h2, h3 {
     border-radius: 5px;
     margin: 25px auto;
     background-color: whitesmoke;
-    border: 5px solid rgb(184, 70, 172);
+    border: 5px solid rgb(106, 30, 98);
   }
 
   input[type=text], input[type=email], input[type=date], input[type=time], input[type=number]{
     display: block;
-    background-color: rgba(184, 70, 173, 0.8);
+    background-color: rgb(106, 30, 98, 0.8);
     width: 40%;
     height: 25px;
     color:whitesmoke;
@@ -330,7 +332,7 @@ h1, h2, h3 {
     margin-top: 20px;
     margin-left: 0.75rem;
     padding: 0.75rem;
-    background-color: rgb(184, 70, 172);
+    background-color: rgb(106, 30, 98);
     color: whitesmoke;
     border: 1px solid whitesmoke;
     border-radius: 5px;
@@ -338,19 +340,20 @@ h1, h2, h3 {
  
   textarea{
     max-width: 60%;
-    background-color: rgba(184, 70, 173, 0.8);
+    background-color: rgb(106, 30, 98, 0.8);
     color: whitesmoke;
   }
 
   label {
-    color:rgb(184, 70, 172);
+    color:rgb(106, 30, 98);
     font-weight: 500;
     letter-spacing: 3px;
     display: block;
+    font-weight: 600;
   }
 
   legend{
-    color:rgb(184, 70, 172);
+    color:rgb(106, 30, 98);
     font-family: 'Dancing Script', cursive;
     font-weight: 600;
     letter-spacing: 3px;
@@ -358,8 +361,8 @@ h1, h2, h3 {
   }
 
   input[type=submit]:hover{
-    border:1px solid rgb(184, 70, 172);
-    color:rgb(184, 70, 172);
+    border:1px solid rgb(106, 30, 98);
+    color:rgb(106, 30, 98);
     background-color: whitesmoke;
   }
   
@@ -375,8 +378,8 @@ h1, h2, h3 {
 #wedding-info {
   margin: 100px 250px;
   padding: 50px; 
-  color: rgb(184, 70, 172);
-  border: 5px solid rgb(184, 70, 172);
+  color: rgb(106, 30, 98);
+  border: 5px solid rgb(106, 30, 98);
   border-radius: 5px;
   text-align: center;
   font-size: 200%;
@@ -393,7 +396,7 @@ h1, h2, h3 {
 
 .filled-background-color {
   height:inherit;
-  background-color: rgba(184, 70, 173, 0.35);
+  background-color: rgb(106, 30, 98 ,0.3);
 }
 
 #filled-form h2 {
@@ -416,10 +419,10 @@ em {
 }
 
 #filled-form a {
-  color:rgb(184, 70, 172);
+  color:rgb(106, 30, 98);
   text-decoration: none;
   background-color: whitesmoke;
-  border: 1px solid rgb(184, 70, 172);
+  border: 1px solid rgb(106, 30, 98);
   border-radius: 5px;
   margin-left: 40%;
   margin-top: 25px;
