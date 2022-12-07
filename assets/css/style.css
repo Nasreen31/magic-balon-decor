@@ -238,8 +238,8 @@ h1, h2, h3 {
   }
 
   footer li {
-    display: inline;
     margin-top: 15px;
+    display: inline;
   }
 
   footer > ul {
@@ -251,12 +251,14 @@ h1, h2, h3 {
     float: left;
     margin-left: 15px;
     font-family: 'Dancing Script', cursive;
+    padding-left: 15px;
   }
 
   #float-right{
     float: right;
     margin-right: 15px;
     font-size: 40px;
+    padding-right: 15px;
   }
 
   footer li i,footer li a {
@@ -273,7 +275,7 @@ h1, h2, h3 {
 
   .picture-example img {
    width: 49%;
-   height: 700px;
+   height: auto;
   }
 
   .picture-example h1 {
@@ -292,7 +294,7 @@ h1, h2, h3 {
     height: 600px;
     background-color:rgb(184, 70, 172);
     border-radius: 50%;
-    margin: 3% 32%;
+    margin: auto;
   }
 
   .decoration-info > p {
@@ -301,8 +303,8 @@ h1, h2, h3 {
     text-align: center;
     color:whitesmoke;
     letter-spacing: 3px;
-    margin: 0 auto;
-    padding: 21% 0;
+    margin: auto;
+    padding-top: 60px;
   }
 
   /* form */
@@ -604,12 +606,8 @@ em {
   /* footer */
 
   #float-left{
-   display: none;
-  }
-
-  #phone-number{
-    float: left;
-    margin-left: 15px
+   font-size: 20px;
+   padding-top: 10px;
   }
 
   /* decoration pages */
