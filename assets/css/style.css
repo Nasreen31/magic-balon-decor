@@ -110,7 +110,7 @@ h1, h2, h3 {
   #hero-image{
     height:inherit;
     width: 100%;
-    background: url(../images/balloons.jpg) center center / cover no-repeat fixed;
+    background: url(../images/balloons.webp) center center / cover no-repeat fixed;
   }
   
     #cover-text{
@@ -145,7 +145,7 @@ h1, h2, h3 {
   #about-image {
     height: 700px;
     width: 90%;
-    background: url(../images/about-us-bg.jpg) center center / cover no-repeat;
+    background: url(../images/about-us-bg.webp) center center / cover no-repeat;
     position: absolute;
     left: 5%;
   }
@@ -186,7 +186,7 @@ h1, h2, h3 {
     border: 2px solid  rgb(106, 30, 98);
     color:  rgb(106, 30, 98);
     margin-left: 2%;
-    padding: 95px 0;
+    padding: 110px 0;
   }
 
   .right-about {
@@ -391,7 +391,7 @@ h1, h2, h3 {
 #filled-form {
   height: 651px;
   width: 100%;
-  background: url(../images/pink-balloons.jpg) center center no-repeat;
+  background: url(../images/pink-balloons.webp) center center no-repeat;
 }
 
 .filled-background-color {
@@ -435,7 +435,7 @@ em {
 #webshop {
   height: 651px;
   width: 100%;
-  background: url(../images/pink-balloons.jpg) center center no-repeat;
+  background: url(../images/pink-balloons.webp) center center no-repeat;
 }
 
 #webshop h1 {
@@ -474,10 +474,6 @@ em {
    .picture-example img {
     height: 600px;
    }
-
-   .decoration-info {
-    margin: 3% 15%;
-  }
 
   input[type=text], input[type=email], input[type=date], input[type=time], input[type=number]{
     width: 50%;
@@ -585,7 +581,7 @@ em {
    /* visit shop */
 
    #visit-shop {
-    height: 950px;
+    height: 1000px;
   }
 
   .left-about {
@@ -593,7 +589,7 @@ em {
     height: 300px;
     margin: 1%;
     margin-bottom: 20px;
-    padding: 50px 0;
+    padding: 70px 0;
   }
 
   .right-about {
@@ -624,22 +620,12 @@ em {
 
    /* decoration info */
 
-  .decoration-info {
-    width: 600px;
-    height: 600px;
-    background-color:rgb(184, 70, 172);
-    border-radius: 50%;
-    margin: 3% 32%;
-  }
-
-  .decoration-info > p {
+  .decoration-info  p {
     font-size: 25px;
-    width: 75%;
+    width: 90%;
     text-align: center;
     color:whitesmoke;
     letter-spacing: 3px;
-    margin: 0 auto;
-    padding: 21% 0;
   }
 
   /* decoration info */
