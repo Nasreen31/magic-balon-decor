@@ -386,9 +386,9 @@ h1, h2, h3 {
   letter-spacing: 3px;
 }
 
-/* contact.html */
+/* contact.html and 404.html */
 
-#filled-form {
+.filled-form {
   height: 651px;
   width: 100%;
   background: url(../images/pink-balloons.webp) center center no-repeat;
@@ -399,7 +399,7 @@ h1, h2, h3 {
   background-color: rgb(106, 30, 98 ,0.3);
 }
 
-#filled-form h2 {
+.filled-form h2 {
   font-family: 'Dancing Script', cursive;
   color: whitesmoke;
   text-align: center;
@@ -407,7 +407,7 @@ h1, h2, h3 {
   padding-top: 50px;
 }
 
-#filled-form p {
+.filled-form p {
   color:whitesmoke;
   text-align: center;
   padding: 25px 0;
@@ -418,7 +418,7 @@ em {
   font-size: 25px;
 }
 
-#filled-form a {
+.filled-form a {
   color:rgb(106, 30, 98);
   text-decoration: none;
   background-color: whitesmoke;
@@ -493,23 +493,23 @@ em {
   margin: 100px;
 }
  
-  /* contact.html */
+  /* contact.html and 404.html*/
 
-#filled-form {
+.filled-form {
   height: 1110px;
 }
 
-#filled-form h2 {
+.filled-form h2 {
   font-size: 80px;
   padding-top: 100px;
 }
 
-#filled-form p {
+.filled-form p {
   font-size: 40px;
   padding:40px 0;
 }
 
-#filled-form a {
+.filled-form a {
   margin-left: 33%;
   margin-top: 75px;
   padding: 1%;
@@ -663,9 +663,9 @@ em {
     max-width: 80%;
   }
 
-  /* contact.html */
+  /* contact.html and 404.html */
 
-  #filled-form a {
+  .filled-form a {
     margin-left: 10%;
   }
 
