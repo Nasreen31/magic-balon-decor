@@ -265,6 +265,10 @@ h1, h2, h3 {
     color:whitesmoke;
   }
 
+  footer a {
+    text-decoration: none;
+  }
+
   /* decoration pages */
   
   /* picture example */
