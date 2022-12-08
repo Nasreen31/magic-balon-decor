@@ -185,11 +185,11 @@ contact page
 
 <h2>Validator testing</h2>
 
-<!--  <ul>
+<ul>
 <li>HTML</li>
 <ul><li>No errors were found when passing through the official <a href="https://jigsaw.w3.org/css-validator/" target="_blank">W3C validator</a></li>
 </ul>
-</ul> -->
+</ul>
 
 <ul>
 <li>CSS</li>
@@ -219,7 +219,7 @@ The form on all pages is almost the same so testing the form on one page is suff
 
 The form on the birthday page was tested to ensure it functioned as expected when correct data was input and when incorrect data was input. The following test scenarios were covered:
 
-<em>Correct inputs</em>
+<h3><em>Correct inputs</em></h3>
 
 steps to test:
 
@@ -243,6 +243,59 @@ Form submits with no warnings or errors and user is redirected to contact.html p
 Actual:
 
 Website behaved as expected with no errors or warnings and redirected to contact.html.
+
+<h3><em>Missing Required Field Last Name</em></h3>
+
+steps to test:
+
+<ol><li>Navigate to <a href="https://huremovic95.github.io/magic-balon-decor/birthday.html">Magic Balon Decor - Birthday page</a></li>
+<li>Scroll down to the form and input the following data:</li><ul>
+<li>First Name: Obi</li>
+<li>Last Name:</li>
+<li>Email: obi-one@jedi.com</li>
+<li>Number: 0612345687</li>
+<li>Date: 07-12-2022</li>
+<li>Time: 21:00</li>
+</ul>
+<li>Click Make Appointment</li>
+<li>User should be redirected to contact.html confirmation page</li>
+</ol>
+
+Expected:
+
+The form does not submit and an Error is displayed to tell the user that the field is required.
+
+Actual:
+
+Website behaved as expected, error message was displayed and the form did not submit.
+
+Note:
+If any of the required fields are blank you will get the same result.
+
+<h3><em>Incorrect email format</em></h3>
+
+steps to test:
+
+<ol><li>Navigate to <a href="https://huremovic95.github.io/magic-balon-decor/birthday.html">Magic Balon Decor - Birthday page</a></li>
+<li>Scroll down to the form and input the following data:</li><ul>
+<li>First Name: Obi</li>
+<li>Last Name: Kenobi</li>
+<li>Email: obi-one-jedi.com</li>
+<li>Number: 0612345687</li>
+<li>Date: 07-12-2022</li>
+<li>Time: 21:00</li>
+</ul>
+<li>Click Make Appointment</li>
+<li>User should be redirected to contact.html confirmation page</li>
+</ol>
+
+Expected:
+
+The form does not submit and an Error is displayed to tell the user that a valid email (needs an @) is required.
+
+Actual:
+
+Website behaved as expected, error message was displayed and the form did not submit.
 
 <h2>Unfixed bugs</h2>
 
