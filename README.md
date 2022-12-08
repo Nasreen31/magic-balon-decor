@@ -137,6 +137,18 @@ Magic Balon Decor is a company that mainly decorates for all kinds of occasions,
 
 <br>
 
+<h1>Design</h1>
+
+<h3>Home page</h3>
+
+<img src="assets/images/wireframes-homepage.jpg">
+
+<h3>Navbar and decorational pages</h3>
+
+<img src="assets/images/wireframes-nav-decorationpages.jpg">
+
+<br>
+
 <h1>Testing</h1>
 
 <h2>Responsiveness</h2>
@@ -361,3 +373,27 @@ git add <file> - This command was used to add the file(s) to the staging area be
 git commit -m “commit message” - This command was used to commit changes to the local repository queue ready for the final step.
 
 git push - This command was used to push all committed code to the remote repository on github.
+
+<br>
+
+<h1>Credits</h1>
+<ul>
+<li><a href="https://www.w3docs.com/snippets/css/how-to-create-a-drop-down-navigation-menu-with-css.html" target="_blank">w3docs</a></li>
+<ul><li>Code was used to make the navbar especially the dropdown function</li></ul>
+</ul>
+
+<h2>Content</h2>
+
+<ul>
+<li>Coders coffeehouse example/walkthrough from Code institute</li>
+<li>Love running walkthrough project</li>
+<li>The icons in the footer were taken from <a href="https://fontawesome.com/icons" target="_blank">Font Awesome</a></li>
+</ul>
+
+<h2>Media</h2>
+
+<ul>
+<li>The map in the visit our shop section is from google maps timeline.</li>
+<li>The picture of the contact, 404, webshop pages and the hero image in the index page are taken from <a href="https://www.pexels.com/nl-nl/" target="_blank">pexels.com</a></li>
+<li>The rest of the pictures are taking from the instagram page of the company with the consent of the owners</li>
+</ul>
