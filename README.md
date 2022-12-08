@@ -50,6 +50,15 @@ Magic Balon Decor is a company that mainly decorates for all kinds of occasions,
 <img src="assets/images/visit-ourshop.png">
 
 <ul>
+<li><h2>Footer</h2></li>
+<ul><li>The footer has on the left side a contact us with a phone icon and fake number. And on the rightside it has an instagram icon that contains a link that takes the user to the instagram of the company in a new tab</li>
+<li>The company only has a instagram no facebook and twitter so i kept it simple</li>
+</ul>
+</ul>
+
+<img src="assets/images/footer.png">
+
+<ul>
 <li><h2>The Birthday, Engangment, Gender Reveal and Grand Opening pages</h2></li>
     <ul>
     <li>All the pages have the same lay-out and structure only the content is different.</li>
@@ -109,6 +118,16 @@ Magic Balon Decor is a company that mainly decorates for all kinds of occasions,
 </ul>
 
 <img src="assets/images/contact.png">
+
+<ul>
+<li><h2>404 Page</h2></li>
+    <ul>
+    <li>A 404 page will be implemented and will display if a user navigates to a broken link.</li>
+    <li>The 404 page will allow the user to easily navigate back to the home page if they direct to a broken link / missing page, without the need of the browsers back button.</li>
+    </ul>
+</ul>
+
+<img src="assets/images/404-page.png">
 
 <h2>Features left to implement</h2>
 <ul>
@@ -227,4 +246,4 @@ Website behaved as expected with no errors or warnings and redirected to contact
 
 <h2>Unfixed bugs</h2>
 
-In the hosted website the logo of the company on the navbar is not visible but when serving it (python3 -m http.server) the logo is visible.
+The text inside the decoration info on the birthdaypage feels a bit off when seen on phonescreen.
