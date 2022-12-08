@@ -297,6 +297,32 @@ Actual:
 
 Website behaved as expected, error message was displayed and the form did not submit.
 
+<h3>Footer</h3>
+
+<h3><em>Social media link/icon</em><h3>
+
+Testing was performed on the Font Awesome Instagram icon in the footer to ensure that it opened in a new tab.
+
+Expected:
+
+Opens company instagram page in new tab.
+
+Actual:
+
+Behavior was as expected
+
+<h3><em>Telephone Number</em><h3>
+
+Testing was performed on the phone number in the footer.
+
+Expected:
+
+A window is opened asking which device you would like to call from.
+
+Actual:
+
+Behavior was as expected.
+
 <h2>Unfixed bugs</h2>
 
 The text inside the decoration info on the birthdaypage feels a bit off when seen on phonescreen.
