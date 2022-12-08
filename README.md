@@ -181,19 +181,27 @@ webshop page
 contact page
 <img src="assets/images/contact-lighthouse.png">
 
-<br>
+<h2>Accessibility</h2>
+
+Wave Accessibility tool was used throughout development and for final testing of the deployed website to check for any aid accessibility testing.
+
+The website has no errors when passing through the official <a href="https://wave.webaim.org/" target="_blank">Wave Accessiblility</a>.
+
+issue: The site had color contrast errors.
+
+fix: made the main color darker.
 
 <h2>Validator testing</h2>
 
 <ul>
 <li>HTML</li>
-<ul><li>No errors were found when passing through the official <a href="https://jigsaw.w3.org/css-validator/" target="_blank">W3C validator</a></li>
+<ul><li>No errors were found when passing through the official <a href="https://jigsaw.w3.org/css-validator/" target="_blank">W3C validator</a>.</li>
 </ul>
 </ul>
 
 <ul>
 <li>CSS</li>
-<ul><li>No errors were found when passing through the official <a href="https://jigsaw.w3.org/css-validator/" target="_blank">(Jigsaw) validator</a></li>
+<ul><li>No errors were found when passing through the official <a href="https://jigsaw.w3.org/css-validator/" target="_blank">(Jigsaw) validator</a>.</li>
 </ul>
 </ul>
 
@@ -223,7 +231,7 @@ The form on the birthday page was tested to ensure it functioned as expected whe
 
 steps to test:
 
-<ol><li>Navigate to <a href="https://huremovic95.github.io/magic-balon-decor/birthday.html">Magic Balon Decor - Birthday page</a></li>
+<ol><li>Navigate to <a href="https://huremovic95.github.io/magic-balon-decor/birthday.html" target="_blank">Magic Balon Decor - Birthday page</a></li>
 <li>Scroll down to the form and input the following data:</li><ul>
 <li>First Name: Obi</li>
 <li>Last Name: Kenobi</li>
@@ -248,7 +256,7 @@ Website behaved as expected with no errors or warnings and redirected to contact
 
 steps to test:
 
-<ol><li>Navigate to <a href="https://huremovic95.github.io/magic-balon-decor/birthday.html">Magic Balon Decor - Birthday page</a></li>
+<ol><li>Navigate to <a href="https://huremovic95.github.io/magic-balon-decor/birthday.html" target="_blank">Magic Balon Decor - Birthday page</a></li>
 <li>Scroll down to the form and input the following data:</li><ul>
 <li>First Name: Obi</li>
 <li>Last Name:</li>
@@ -276,7 +284,7 @@ If any of the required fields are blank you will get the same result.
 
 steps to test:
 
-<ol><li>Navigate to <a href="https://huremovic95.github.io/magic-balon-decor/birthday.html">Magic Balon Decor - Birthday page</a></li>
+<ol><li>Navigate to <a href="https://huremovic95.github.io/magic-balon-decor/birthday.html" target="_blank">Magic Balon Decor - Birthday page</a></li>
 <li>Scroll down to the form and input the following data:</li><ul>
 <li>First Name: Obi</li>
 <li>Last Name: Kenobi</li>
@@ -325,4 +333,31 @@ Behavior was as expected.
 
 <h2>Unfixed bugs</h2>
 
-The text inside the decoration info on the birthdaypage feels a bit off when seen on phonescreen.
+Text in birthday page in decoration info div is not positioned well when viewing on phonescreen.
+
+<br>
+
+<h1>Deployment</h1>
+
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+<ul>
+<li>In the GitHub repository, navigate to the Settings tab</li>
+<li>From the menu on left select 'Pages'</li>
+<li>From the source section drop-down menu, select the Branch: main</li>
+<li>Click 'Save'</li>
+<li>A live link will be displayed in a green banner when published successfully.</li>
+</ul>
+
+<h2>Version control</h2>
+
+The live link can be found here - <a href="https://huremovic95.github.io/magic-balon-decor" target="_blank">https://huremovic95.github.io/magic-balon-decor/</a>
+
+The site was created using the Visual Studio code editor and pushed to github to the remote repository ‘tacos-travels’.
+
+The following git commands were used throughout development to push code to the remote repo:
+
+git add <file> - This command was used to add the file(s) to the staging area before they are committed.
+
+git commit -m “commit message” - This command was used to commit changes to the local repository queue ready for the final step.
+
+git push - This command was used to push all committed code to the remote repository on github.
