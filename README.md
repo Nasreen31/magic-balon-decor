@@ -319,7 +319,7 @@ Website behaved as expected, error message was displayed and the form did not su
 
 <h3>Footer</h3>
 
-<h3><em>Social media link/icon</em><h3>
+<h3><em>Social media link/icon</em></h3>
 
 Testing was performed on the Font Awesome Instagram icon in the footer to ensure that it opened in a new tab.
 
@@ -331,7 +331,7 @@ Actual:
 
 Behavior was as expected
 
-<h3><em>Telephone Number</em><h3>
+<h3><em>Telephone Number</em></h3>
 
 Testing was performed on the phone number in the footer.
 
